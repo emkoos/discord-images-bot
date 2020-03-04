@@ -53,6 +53,7 @@ namespace DiscordMemeBot
 
                         await Task.Delay(ts);
 
+                        // You must create an Images folder
                         await e.Message.RespondWithFileAsync("../Images/" + list[index] + ".jpg", "Its your meme for today!");
                     }
                 }
